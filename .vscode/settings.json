@@ -1,10 +1,7 @@
 {
-    "editor.formatOnSave": true,
-    "rust-analyzer.linkedProjects": [
-        "backend/Cargo.toml"
-    ],
-    "rust-analyzer.server.path": "rust-analyzer",
-    "lldb.launch.sourceLanguages": [
-        "rust"
-    ],
+  "$schema": "https://github.com/hanatsumi/rakuyomi/releases/download/main/settings.schema.json",
+  "source_lists": [
+    "https://raw.githubusercontent.com/Skittyblock/aidoku-community-sources/refs/heads/gh-pages/index.min.json"
+  ],
+  "languages": ["en"]
 }
