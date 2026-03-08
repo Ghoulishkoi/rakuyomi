@@ -1,10 +1,18 @@
 {
-    "editor.formatOnSave": true,
-    "rust-analyzer.linkedProjects": [
-        "backend/Cargo.toml"
-    ],
-    "rust-analyzer.server.path": "rust-analyzer",
-    "lldb.launch.sourceLanguages": [
-        "rust"
-    ],
+ "source_lists": [
+    "https://raw.githubusercontent.com/tachibana-shin/aidoku-community-sources/gh-pages/index.min.json",
+    "https://aidoku-community.github.io/sources/index.min.json"
+  ],
+  "languages": [
+    "en"
+  ],
+  "chapter_sorting_mode": "chapter_descending",
+  "library_sorting_mode": "last_read_desc",
+  "concurrent_requests_pages": 4,
+  "api_sync": null,
+  "enabled_cron_check_mangas_update": false,
+  "source_skip_cron": null,
+  "preload_chapters": 0,
+  "optimize_image": false,
+  "library_view_mode": "cover"
 }
